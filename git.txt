@@ -1,0 +1,26 @@
+
+
+$ git config --global init.defaultBranch main //To set main as the default branch name do
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+git config user.name //to see the user' name
+git config user.email //to see the email of the user
+
+ git add *.c
+$ git add LICENSE
+$ git commit -m 'Initial project version'
+
+$ git clone https://github.com/libgit2/libgit2
+$ git clone https://github.com/libgit2/libgit2 mylibgit //clone a directory by changing the name
+
+git show //it show the last commit did in a project
+git log// all commits
+
+git log --oneline//Show a concise summary of each commit
+git log --graph --oneline --all//Show a graphical representation of the commit history
+git log --author="Author Name" //Show commits by a specific author
+
+
+
